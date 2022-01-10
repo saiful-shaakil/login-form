@@ -1,0 +1,78 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.login-box{
+    width: 420px;
+    height: 520px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: rgb(134, 233, 233);
+    padding: 90px 50px;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -75px;
+    left: calc(50% - 75px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 40px 0;
+    text-align: center;
+    font-size: 40px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    padding: 5px 0 5px 0;
+    outline: none;
+    font-size: 17px;
+    color: black;
+}
+.login-box button{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgb(108, 180, 180, 50%);
+    border-radius: 20px;
+}
+.login-box button:hover{
+    background: crimson;
+    transition: background .5s;
+}
+.login-box a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: rgb(71, 68, 68);
+    font-size: 18px;
+
+}
+.login-box a:hover{
+    color: crimson;
+}
